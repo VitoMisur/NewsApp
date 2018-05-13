@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CnewsR</string>
+    <string name="newsAPI">www.theguardian.com</string>
+    <string name="no_connection">No internet connection.</string>
+    <string name="no_news">No news found.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_star_rating_label">Order By Star Rating:</string>
+    <string name="settings_star_rating_key" translatable="false">order_by_star_rating</string>
+    <string name="settings_star_rating_default" translatable="false">@string/settings_order_by_rating_value</string>
+    <string name="settings_order_by_rating_label">none</string>
+    <string name="settings_order_by_rating_value" translatable="false">none</string>
+    <string name="settings_order_by_rating_one_label">1*</string>
+    <string name="settings_order_by_rating_one_value" translatable="false">1</string>
+    <string name="settings_order_by_rating_two_label">2*</string>
+    <string name="settings_order_by_rating_two_value" translatable="false">2</string>
+    <string name="settings_order_by_rating_three_label">3*</string>
+    <string name="settings_order_by_rating_three_value" translatable="false">3</string>
+    <string name="settings_order_by_rating_four_label">4*</string>
+    <string name="settings_order_by_rating_four_value" translatable="false">4</string>
+    <string name="settings_order_by_rating_five_label">5*</string>
+    <string name="settings_order_by_rating_five_value" translatable="false">5</string>
+
+    <string name="settings_page_label">Current Page:</string>
+    <string name="settings_page_key" translatable="false">page</string>
+    <string name="settings_page_default" translatable="false">1</string>
+
+    <string name="settings_section_label">Order By Section:</string>
+    <string name="settings_section_key" translatable="false">order_by_section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_order_by_newest_value</string>
+    <string name="settings_order_by_newest">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_sports_label">Sports</string>
+    <string name="settings_order_by_sports_value" translatable="false">sport</string>
+    <string name="settings_order_by_business_label">Business</string>
+    <string name="settings_order_by_business_value" translatable="false">business</string>
+    <string name="settings_order_by_politics_label">Politics</string>
+    <string name="settings_order_by_politics_value" translatable="false">politics</string>
+    <string name="settings_order_by_science_label">Science</string>
+    <string name="settings_order_by_science_value" translatable="false">science</string>
+    <string name="settings_order_by_society_label">Society</string>
+    <string name="settings_order_by_society_value" translatable="false">society</string>
+    <string name="settings_order_by_us_news_label">US News</string>
+    <string name="settings_order_by_us_news_value" translatable="false">us-news</string>
+</resources>

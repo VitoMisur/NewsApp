@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest</item>
+        <item>@string/settings_order_by_sports_label</item>
+        <item>@string/settings_order_by_business_label</item>
+        <item>@string/settings_order_by_politics_label</item>
+        <item>@string/settings_order_by_science_label</item>
+        <item>@string/settings_order_by_society_label</item>
+        <item>@string/settings_order_by_us_news_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_sports_value</item>
+        <item>@string/settings_order_by_business_value</item>
+        <item>@string/settings_order_by_politics_value</item>
+        <item>@string/settings_order_by_science_value</item>
+        <item>@string/settings_order_by_society_value</item>
+        <item>@string/settings_order_by_us_news_value</item>
+    </string-array>
+
+    <string-array name="settings_order_by_star_rating_labels">
+        <item>@string/settings_order_by_rating_label</item>
+        <item>@string/settings_order_by_rating_one_label</item>
+        <item>@string/settings_order_by_rating_two_label</item>
+        <item>@string/settings_order_by_rating_three_label</item>
+        <item>@string/settings_order_by_rating_four_label</item>
+        <item>@string/settings_order_by_rating_five_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_star_rating_values">
+        <item>@string/settings_order_by_rating_value</item>
+        <item>@string/settings_order_by_rating_one_value</item>
+        <item>@string/settings_order_by_rating_two_value</item>
+        <item>@string/settings_order_by_rating_three_value</item>
+        <item>@string/settings_order_by_rating_four_value</item>
+        <item>@string/settings_order_by_rating_five_value</item>
+    </string-array>
+</resources>
+

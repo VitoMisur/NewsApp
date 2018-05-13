@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/MatchParent"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="2px"
+        android:drawSelectorOnTop="true"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/MatchParent"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/news_api"
+        style="@style/MatchParent"
+        android:layout_below="@+id/loading_spinner"
+        android:gravity="center"
+        android:text="@string/newsAPI"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
